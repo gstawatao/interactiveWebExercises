@@ -1,0 +1,17 @@
+body{
+    background-color: hotpink;
+    color: white;
+}
+
+/* This allows you to be able to position html elements starting from the top left instead of displaying as block under p5.js canvas */
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+h1{
+    position: fixed;
+    margin-left: 87%;
+    z-index: 2;
+}
