@@ -1,0 +1,23 @@
+h1{
+    font-size: xx-large;
+    margin-left: 30%;
+    margin-top: 5%;
+    position: fixed;
+}
+
+h2{
+    font-size: x-large;
+    margin-left: 29.5%;
+    margin-top: 10%;
+    position: fixed;
+}
+
+body{
+    background-color: yellow;
+}
+
+img {
+    position: fixed;
+    margin-top: 20%;
+    margin-left: 33%;
+}

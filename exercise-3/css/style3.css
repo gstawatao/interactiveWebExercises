@@ -1,0 +1,59 @@
+.prompt {
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 13%;
+    font-size: xx-large;
+    text-align: center;
+    width: 70%;
+}
+
+body{
+    /* background-color: black; */
+    margin: 0;
+}
+
+/* This allows you to be able to position html elements starting from the top left instead of displaying as block under p5.js canvas */
+#html-body{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.split1{
+    margin-top: 20%;
+    margin-left: 5%;
+    position: fixed;
+}
+
+img:hover {
+    animation: shake 0.5s; 
+    animation-iteration-count: infinite; 
+  }
+
+  @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.split2{
+    margin-top: 40%;
+    margin-left: 34%;
+    position: fixed;
+}
+
+.split3{
+    margin-top: 20%;
+    margin-left: 60%;
+    position: fixed;
+}
